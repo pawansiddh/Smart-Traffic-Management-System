@@ -1,5 +1,6 @@
-$$Algorithm 1: Shortest Path Algorithm using Dynamic Programming$$
-$$Pseudocode:$$
+                                                             # $$Algorithm 1: Shortest Path Algorithm using Dynamic Programming$$
+#Pseudocode:$$
+
 function shortestPath(start, dest, traffic):
 dist = array of distances from start to other nodes
 prev = array of previous nodes in shortest path
