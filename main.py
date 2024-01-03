@@ -1,4 +1,4 @@
-                                                             # $$Algorithm 1: Shortest Path Algorithm using Dynamic Programming$$
+                                                             # Algorithm 1: Shortest Path Algorithm using Dynamic Programming
 #Pseudocode:$$
 
 function shortestPath(start, dest, traffic):
