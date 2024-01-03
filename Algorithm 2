@@ -1,0 +1,28 @@
+                                                               ## Route Assignment Algorithm using Greedy Method ##
+'''Inputs:
+Vehicles
+Starting locations for each vehicle
+Destinations for each vehicle
+Traffic conditions on each route
+Outputs:
+Assignment of each vehicle to a route
+Steps:
+ Sort the vehicles by their starting locations.  For each vehicle, find the route with the least amount of traffic using the
+Greedy Method technique.  Assign the vehicle to the selected route.  Repeat steps 2 and 3 until all vehicles have been assigned to a route.''' 
+#Pseudocode:
+
+function routeAssignment(vehicles, starts, destinations, traffic):
+routes = array of available routes
+sort vehicles by starting locations
+for each vehicle in vehicles:
+min_traffic = infinity
+selected_route = null
+7
+for each route in routes:
+traffic_on_route = calculateTraffic(route, traffic)
+if traffic_on_route < min_traffic:
+min_traffic = traffic_on_route
+selected_route = route
+assign vehicle to selected_route
+remove selected_route from routes
+return assignments
