@@ -6,3 +6,4 @@ Greedy Method, and Backtracking. Dynamic Programming is used to identify the
 optimal route for vehicles based on real-time traffic data, while Greedy Method is
 used to optimize traffic signal timings. Backtracking is used to resolve conflicts
 in traffic flow.
+github link:https://github.com/pawansiddh/Smart-Traffic-Management-System.git
